@@ -1,0 +1,30 @@
+@import url(./app.css);
+
+:root {
+  font-size: 62.5%;
+
+  --bg: #121214;
+  --title-color: #996dff;
+
+  --input-bg: #202024;
+  --input-text-color: #7c7c8a;
+  --button-bg: #8257e5;
+
+  --resumo-text-color: #ffffff;
+  --aguarde-text-color: #7c7c8a;
+}
+
+body,
+input {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--bg);
+}

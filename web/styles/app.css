@@ -1,0 +1,80 @@
+#app {
+  margin: 7.4rem auto 0;
+  width: 50%;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo h1 {
+  color: var(--title-color);
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 100%; /* 34px */
+}
+
+form {
+  display: flex;
+  gap: 1.2rem;
+  margin: 6.4rem 0;
+}
+
+form input {
+  background-color: var(--input-bg);
+  border: none;
+  border-radius: 5px;
+  color: var(--input-text-color);
+  font-size: 1.6rem;
+  line-height: 100%; /* 16px */
+  padding: 1.6rem 0 1.6rem 1.6rem;
+  width: 100%;
+}
+
+form input:hover,
+form input:focus {
+  outline: 2px solid var(--button-bg);
+}
+
+form button {
+  background: var(--button-bg);
+  border: none;
+  border-radius: 5px;
+  padding: 1.2rem;
+  transition: 0.3s;
+}
+
+form button:hover {
+  cursor: pointer;
+  background: #6843c0;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  gap: 1.8rem;
+}
+
+.description p {
+  color: var(--resumo-text-color);
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 100%; /* 22px */
+}
+
+.description span {
+  color: var(--aguarde-text-color);
+  font-size: 1.6rem;
+}
+
+.sr-only {
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  width: 1px;
+}
+
+.placeholder {
+  user-select: none;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Resumo de vídeos shorts do Youtube" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" type="image/svg+xml" href="./public/logo.svg" />
+    <link rel="stylesheet" href="./web/styles/base.css" />
+    <link rel="stylesheet" href="./web/styles/medias.css" />
+    <title>Shorts Summary</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="logo">
+        <img src="./public/logo.svg" alt="Logo do Shorts Summary" />
+        <h1>Shorts Summary</h1>
+      </div>
+
+      <form action="form">
+        <label for="url" class="sr-only">URL do vídeo</label>
+        <input type="url" id="url" placeholder="URL do vídeo" required />
+        <button title="Resumir">
+          <img src="./public/play.svg" alt="Botão para resumir vídeo" />
+        </button>
+      </form>
+
+      <div class="description">
+        <p>Resumo</p>
+        <span class="placeholder">O resumo está sendo gerado. Aguarde...</span>
+      </div>
+    </div>
+
+    <script type="module" src="./web/main.js"></script>
+  </body>
+</html>
